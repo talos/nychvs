@@ -59,6 +59,13 @@ if __name__ == '__main__':
     cols = sorted([c[1] for c in schema])
     sys.stdout.write(sep.join(cols) + nl)
     for out in parse_dat(sys.argv[1], schema):
-        for c in cols:
-            sys.stdout.write(out[c] + sep)
-        sys.stdout.write(nl)
+        sys.stdout.write(sep.join([out[c] for c in cols]) + nl)
+
+"""
+SELECT COUNT(*), Borough, `Sub-borough Area`, AVG(CAST(`Monthly Contract Rent` AS INT))
+FROM occ_2011
+WHERE CAST(`Monthly Contract Rent` AS INT) > 0
+GROUP BY Borough, `Sub-borough Area`
+ORDER BY Borough, `Sub-Borough Area`
+
+"""
