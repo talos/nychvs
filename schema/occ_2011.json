@@ -1,0 +1,145 @@
+[
+    [
+        [1],
+        "Borough",
+        {
+            "1": "Bronx",
+            "2": "Brooklyn",
+            "3": "Manhattan",
+            "4": "Queens",
+            "5": "Staten Island"
+        }
+    ], [
+        [25],
+        "Condition of Building (Observation)",
+        {
+            "1": "Dilapidated",
+            "2": "Sound",
+            "3": "Deteriorating",
+            "8": "Not Reported"
+        }
+    ], [
+        [78],
+        "Condo/Coop Status",
+        {
+            "1": "No",
+            "2": "Condo",
+            "3": "Coop",
+            "4": "Unknown"
+        }
+    ], [
+        [79],
+        "Tenure (1)",
+        {
+            "1": "Owned or being bought",
+            "9": "N/A (renter)"
+        }
+    ], [
+        [80],
+        "Tenure (2)",
+        {
+            "2": "Pay cash rent",
+            "3": "Occupy rent free",
+            "9": "Not applicable (owner occupied)"
+        }
+    ], [
+        [139, 140],
+        "Number of Units in Building",
+        {
+            "01": "1 unit without business",
+            "02": "1 unit with business",
+            "03": "2 units without business",
+            "04": "2 units with business",
+            "05": "3 units",
+            "06": "4 units",
+            "07": "5 units",
+            "08": "6 to 9 units",
+            "09": "10 to 12 units",
+            "10": "13 to 19 units",
+            "11": "20 to 49 units",
+            "12": "50 to 99 units",
+            "13": "100 units or more"
+        }
+    ], [
+        [149],
+        "Number of Rooms",
+        {
+            "01": "1 rooms",
+            "02": "2 rooms",
+            "03": "3 rooms",
+            "04": "4 rooms",
+            "05": "5 rooms",
+            "06": "6 rooms",
+            "07": "7 rooms",
+            "08": "8 rooms or more"
+        }
+    ], [
+        [150,151],
+        "Number of Bedrooms",
+        {
+            "01": "No bedroom",
+            "02": "1 bedrooms",
+            "03": "2 bedrooms",
+            "04": "3 bedrooms",
+            "05": "4 bedrooms",
+            "06": "5 bedrooms",
+            "07": "6 bedrooms",
+            "08": "7 bedrooms",
+            "09": "8 bedrooms or more"
+        }
+    ], [
+        [190, 194],
+        "Monthly Contract Rent",
+        {
+            "99999": "Not applicable (occupied rent free or owner occupied)"
+        }
+    ], [
+        [407, 408],
+        "Program Status Input",
+        {
+            "07": "Mitchell Lama State/Coop",
+            "08": "Mitchell Lama City/Coop",
+            "12": "Public Housing",
+            "13": "In Rem",
+            "14": "421-A",
+            "15": "J-51",
+            "16": "Mitchell Lama State/Rental",
+            "17": "Mitchell Lama City/Rental",
+            "19": "Article 4/5",
+            "20": "HUD regulated",
+            "21": "Loft Board",
+            "23": "Municipal Loan Program",
+            "99": "Not applicable"
+        }
+    ], [
+        [411, 412],
+        "New Control Status Recode",
+        {
+            "01": "Owner occupied conventional",
+            "02": "Owner occupied private cooperative",
+            "05": "Public housing",
+            "12": "Owner occupied condo",
+            "20": "Article 4 or 5 building",
+            "21": "HUD regulated",
+            "22": "Loft Board regulated building",
+            "23": "Municipal Loan Program",
+            "30": "Stabilized pre 1947",
+            "31": "Stabilized post 1947",
+            "80": "Other rental",
+            "85": "Mitchell Lama rental",
+            "86": "Mitchell Lama cooperative",
+            "90": "Controlled",
+            "95": "In Rem"
+        }
+    ], [
+        [525, 526],
+        "Sub-borough Area",
+        {}
+    ], [
+        [555, 560],
+        "Sequence Number (Household)",
+        {}
+    ]
+]
+
+
