@@ -18,8 +18,9 @@
 
 # Convert a dat file to CSV according to a JSON schema.
 
-import sys
 import json
+import os
+import sys
 
 
 def parse_dat(path, schema):
@@ -45,9 +46,9 @@ def parse_dat(path, schema):
             yield out
 
 if __name__ == '__main__':
-    if len(sys.argv) != 3:
+    if len(sys.argv) != 4:
         sys.stderr.write("""
-    usage: {0} <path_to_dat> <path_to_schema>
+    usage: {0} <path_to_dat> <year> <path_to_schema>
 
 """.format(sys.argv[0]))
         sys.exit(1)
@@ -55,10 +56,14 @@ if __name__ == '__main__':
     sep = u'\t'
     nl = u'\n'
 
-    schema = json.load(open(sys.argv[2], 'r'))
+    year = sys.argv[2]
+    schema = json.load(open(sys.argv[3], 'r'))
     cols = sorted([c[1] for c in schema])
+
+    sys.stdout.write(sep.join([u'file', u'year']) + sep)
     sys.stdout.write(sep.join(cols) + nl)
     for out in parse_dat(sys.argv[1], schema):
+        sys.stdout.write(sep.join([os.path.basename(sys.argv[1]), year]) + sep)
         sys.stdout.write(sep.join([out[c] for c in cols]) + nl)
 
 """

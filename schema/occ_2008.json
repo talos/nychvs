@@ -23,16 +23,17 @@
         "Condo/Coop Status",
         {
             "1": "No",
-            "2": "Condo",
-            "3": "Coop",
-            "4": "Unknown"
+            "2": "Yes, a condominium",
+            "3": "Yes, a cooperative",
+            "4": "Don't know",
+            "8": "Not reported"
         }
     ], [
         [79],
         "Tenure (1)",
         {
             "1": "Owned or being bought",
-            "9": "N/A (renter)"
+            "9": "Not applicable (renter occupied)"
         }
     ], [
         [80],
@@ -88,7 +89,7 @@
             "09": "8 bedrooms or more"
         }
     ], [
-        [190, 194],
+        [185, 189],
         "Monthly Contract Rent",
         {
             "99999": "Not applicable (occupied rent free or owner occupied)"
@@ -132,7 +133,11 @@
             "95": "In Rem"
         }
     ], [
-        [525, 526],
+        [537, 545],
+        "Household Weight",
+        {}
+    ], [
+        [524, 525],
         "Sub-borough Area",
         {}
     ], [
