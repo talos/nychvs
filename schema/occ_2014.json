@@ -19,6 +19,50 @@
             "8": "Not Reported"
         }
     ], [
+        [60, 61],
+        "Most Recent Place Householder Lived For 6 Months or More",
+        {
+          "01": "Always lived in this unit",
+          "02": "Other unit in same building",
+          "03": "Bronx",
+          "04": "Brooklyn",
+          "05": "Manhattan",
+          "06": "Queens",
+          "07": "Staten Island",
+          "08": "NY, NJ, Connecticut",
+          "09": "Other state",
+          "10": "Puerto Rico",
+          "11": "Dominican Republic",
+          "12": "Caribbean (other than Puerto Rico or Dom. Rep.) 13=Mexico",
+          "14": "Central America, South America 15=Canada",
+          "16": "Europe",
+          "17": "Russia/Successor States to Soviet Union 18=China, Hong Kong, Taiwan",
+          "19": "Korea",
+          "20": "India",
+          "21": "Pakistan, Bangladesh",
+          "22": "Philippines",
+          "23": "Southeast Asia (Burma, Cambodia, Laos, Malaysia, Singapore, Thailand, Vietnam) 24=Other Asia",
+          "25": "Africa",
+          "26": "All other countries",
+          "98": "Not reported"
+        }
+    ], [
+    [64, 65],
+    "Year Householder Moved into Unit Recode",
+        {
+          "01": "2012 or later",
+          "02": "2009-2011",
+          "03": "2006-2008",
+          "04": "2003-2005",
+          "05": "2000-2002",
+          "06": "1995-1999",
+          "07": "1990-1994",
+          "08": "1985-1989",
+          "09": "1980-1984",
+          "10": "1970-1979",
+          "11": "1969 or earlier"
+        }
+    ], [
         [78],
         "Condo/Coop Status",
         {
