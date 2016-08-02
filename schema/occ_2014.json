@@ -176,6 +176,14 @@
             "95": "In Rem"
         }
     ], [
+        [460, 466],
+        "Total Household Income",
+        {}
+    ], [
+        [468, 474],
+        "Household Income from Wages, Salaries, Commissions, Bonuses, or Tips",
+        {}
+    ], [
         [525, 526],
         "Sub-borough Area",
         {}
