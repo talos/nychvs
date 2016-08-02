@@ -176,13 +176,19 @@
             "95": "In Rem"
         }
     ], [
-        [460, 466],
+        [458, 464],
         "Total Household Income",
-        {}
+        {
+          "9999997": "$9,999,997 or more",
+          "9999999": "No income"
+        }
     ], [
-        [468, 474],
+        [466, 472],
         "Household Income from Wages, Salaries, Commissions, Bonuses, or Tips",
-        {}
+        {
+          "9999997": "$9,999,997 or more",
+          "9999999": "No income"
+        }
     ], [
         [525, 526],
         "Sub-borough Area",
